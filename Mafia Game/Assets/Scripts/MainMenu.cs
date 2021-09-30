@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
     public void QuitGame()
     {
         Application.Quit(); // quit the game
+        Debug.Log("Quit The Game.");
     }
 }
